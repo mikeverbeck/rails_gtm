@@ -12,3 +12,8 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+gem 'pry'
+
+group :development do
+  gem 'require_reloader'
+end
