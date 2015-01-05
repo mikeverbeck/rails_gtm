@@ -29,4 +29,10 @@ Dummy::Application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+
+  #reload local gems for active development
+  RequireReloader.watch_local_gems!
+
+  # GTM
+  config.google_tag_manager_code = 'GTM-123'
 end
