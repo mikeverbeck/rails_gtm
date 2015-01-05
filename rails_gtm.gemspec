@@ -7,11 +7,11 @@ require "rails_gtm/version"
 Gem::Specification.new do |s|
   s.name        = "rails_gtm"
   s.version     = RailsGtm::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsGtm."
-  s.description = "TODO: Description of RailsGtm."
+  s.authors     = ["Mike Verbeck"]
+  s.email       = ["mikeverbeck@gmail.com"]
+  s.homepage    = "https://mikeverbeck.github.io"
+  s.summary     = "RailsGtm is a rails engine that adds Google Tag Manager to your project"
+  s.description = "Description of RailsGtm."
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
